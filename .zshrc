@@ -126,3 +126,27 @@ export NVM_DIR="$HOME/.nvm"
 export GOROOT=/usr/local/go
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin:$GOROOT/bin
+
+alias p='cd ~/personal'
+alias play='cd ~/playground'
+
+export M2_HOME=/opt/apache-maven-3.9.8
+export PATH=$PATH:$M2_HOME/bin
+
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+
+function show() {
+	echo "Search for $1 in current directory"
+	ll | grep -i $1
+}
+
+# git aliases
+alias gst='git status'
+alias gc='git commit'
+alias co='git checkout'
+alias gaa='git add -A'
+alias gd='git diff'
+alias gdc='git diff --cached'
+
