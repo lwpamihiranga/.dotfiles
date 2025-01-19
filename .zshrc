@@ -129,6 +129,7 @@ export PATH=$PATH:$GOPATH/bin:$GOROOT/bin
 
 alias p='cd ~/personal'
 alias play='cd ~/playground'
+alias f='cd ~/freelance'
 
 export M2_HOME=/opt/apache-maven-3.9.8
 export PATH=$PATH:$M2_HOME/bin
