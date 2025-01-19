@@ -1,0 +1,7 @@
+[user]
+	email = lwpamihiranga@gmail.com
+	name = Amith Mihiranga
+[init]
+	defaultBranch = main
+[core]
+	editor = vim
